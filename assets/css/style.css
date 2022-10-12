@@ -1,0 +1,121 @@
+:root {
+    background-color:rgb(129, 80, 17);
+   /* font-size: 62.5%; */   
+}
+* {
+ box-sizing: border-box;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin: 5px; 
+ padding:0;
+ color:rgb(5, 64, 16);
+} 
+
+.container { 
+    width: 100VW;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size:50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.container > * {
+    width:100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items:center;
+}
+
+.justify-center {
+    justify-content:center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#btn{
+    font-size: 15px;
+    padding: 6px;
+    width: 100px;
+    text-align:center;
+    border: 2px solid green;
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: green;
+    background-color: tan;
+    border-radius: 7%;
+}
+
+#start-button {
+    font-size: 15px;
+    padding: 6px;
+    width: 100px;
+    text-align:center;
+    border: 2px solid green;
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: green;
+    background-color: tan;
+    border-radius: 7%;
+}
+
+.choice-text {
+    font-size: 15px;
+    padding: 6px;
+    width: 100px;
+    text-align:center;
+    border: 2px solid green;
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: green;
+    background-color: tan;
+    border-radius: 7%;
+}
+
+
+#initial {
+    font-size: 15px;
+    padding: 6px;
+    width: 100px;
+    text-align:center;
+    border: 2px solid green;
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: green;
+    background-color: tan;
+    border-radius: 7%;
+}
+
+#game {
+    justify-content: center;
+    align-items:center;
+}
+
+#save-init {
+    font-size: 15px;
+    padding: 6px;
+    width: 100px;
+    text-align:center;
+    border: 2px solid tan;
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: tan;
+    background-color: green;
+    border-radius: 7%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz challenge</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+</head>
+<body>
+  <!-- Div to hold our link to high scores -->
+  <div class="scoreboard">
+    <button id="btn">High Scores</button>
+  </div>
+    <!-- Div to hold our timer -->
+    <div>
+      <p>Time:<span id="time"></span></p>
+    </div>  
+    <!-- Wrapper div to hold the rest of the content on our screen -->
+  <div class="container">
+    <div id="home" class="flex-center flex-column">
+      <h1>Quiz time</h1>
+      <button id= "start-button">Start quiz</button>
+    </div>
+    <!-- Div for the start screen -->
+
+       <!-- Div for the questions -->
+    <div id= "game" class= "justify-center flex-column"> 
+      <h2 id="question">what is the answer to this question?</h2>
+      
+      <div class="choice-container">
+          <button class="choice-text" data-number="1">Choice 1</button>
+      </div> 
+     
+      <div class="choice-container">
+        <button class="choice-text" data-number="2">Choice 2</button>
+      </div> 
+      
+      <div class="choice-container">
+        <button class="choice-text" data-number="3">Choice 3</button>
+      </div> 
+    
+      <div class="choice-container">
+        <button class="choice-text" data-number="4">Choice 4</button>
+      </div> 
+      <!-- Div to dynamically display feedback to the user -->
+    </div>
+      
+    <!-- Div for the end screen -->
+     
+        <div class="ending-screen flex-center flex-column" >
+           <h2>Highscore:</h2>
+              <form id="init-form" method="init-method">
+                <label for="scores">Enter initials:</label>
+                   <input type = text id="initial" placeholder="Initial here..." name="init-text"></input>
+                <button id="save-init">Save</button>
+              </form>
+            <ul id="user-list"></ul>
+        </div>
+    
+  </div>
+
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
+
