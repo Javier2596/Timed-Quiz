@@ -12,6 +12,10 @@ The step for installing this project were creating a git remote repository and t
 
 This project is a quiz game application that test the user in a timed manner and record there initials and quiz score.
 
+## Link
+
+https://javier2596.github.io/Timed-Quiz/
+
 ## Credits
 
 https://developer.mozilla.org/en-US/
